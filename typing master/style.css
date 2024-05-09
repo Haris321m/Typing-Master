@@ -1,0 +1,76 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    font-family: sans-serif;
+    background: rgb(0, 255, 170);
+
+}
+
+.container {
+
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.container>h1{
+
+    font-size: 5em;
+
+}
+
+.container #word{
+
+    font-size: 4em;
+    font-family: sans-serif;
+
+}
+
+.container #input{
+
+    font-size: 2em;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1.4px solid white;
+    overflow: hidden;
+    outline: none;
+    background: rgba(255, 255, 255, 0.342);
+    backdrop-filter: blur(10px);
+
+}
+
+.container button{
+
+    font-size: 2em;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 50px;
+
+}
+
+.container button:hover{
+
+    cursor: pointer;
+
+}
+
+.container h2{
+
+    margin-top: 20px;
+
+}
+
+footer{
+
+    text-align: center;
+    margin-top: 100px;
+    background: rgba(100, 100, 100, 0.308);
+    padding: 10px 0px;
+
+}
